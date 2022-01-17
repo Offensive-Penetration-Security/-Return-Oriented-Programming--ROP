@@ -67,9 +67,9 @@ Our exploit will need to do the following:
 1. Enter "sh" or another command to run as name
 2. Fill the stack with
 
------------------------------------------------
+-----------------------------------------------------
 
-1 .Garbage up to the saved EIP
+1. Garbage up to the saved EIP
 2. The address of system's PLT entry
 3. A fake return address for system to jump to when it's done
 4. The address of the name global to act as the first argument to system
